@@ -73,6 +73,7 @@ public class CityController {
         return result;
     }
 
+
     @RequestMapping(value = "/save", method = RequestMethod.POST)
     public ModelMap save(City city) {
         ModelMap result = new ModelMap();
